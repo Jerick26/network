@@ -1,3 +1,12 @@
+/* reference from https://www.gnu.org/software/libc/manual/html_node/Example-Receiver.html#Example-Receiver
+ * It sends a datagram to the server and then waits for a reply.
+ * Keep in mind that datagram socket communications are unreliable.
+ * In this example, the client program waits indefinitely if the message never reaches the server 
+ * or if the server’s response never comes back.
+ * A more automatic solution could be to use select (see Waiting for I/O) to establish a timeout
+ * period for the reply, and in case of timeout either re-send the message or shut down the socket and exit.
+ */
+
 #include <stddef.h>
 #include <stdio.h>
 #include <errno.h>
