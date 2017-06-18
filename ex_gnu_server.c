@@ -1,4 +1,5 @@
 /* reference from https://www.gnu.org/software/libc/manual/html_node/Server-Example.html  */
+/* The GNU C Library: https://www.gnu.org/software/libc/manual/html_node/index.html       */
 
 #include <stdio.h>
 #include <errno.h>
