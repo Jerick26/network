@@ -1,3 +1,7 @@
+/*
+ * original: https://banu.com/blog/2/how-to-use-epoll-a-complete-example-in-c/
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
